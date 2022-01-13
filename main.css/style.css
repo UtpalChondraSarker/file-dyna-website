@@ -1,0 +1,234 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    
+    margin-top: 20px;
+}
+.text-style{
+    line-height: 1.3em;
+    font-variant: 10px;
+    margin-top: 50px;
+    
+}
+
+.pargraph{
+    text-align:justify;
+    line-height: 2.3em;
+}
+.pargraph a{
+    text-decoration: none;
+    display: block;
+}
+.button{
+    background-color: blue;
+    display: inline;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 5px;
+    
+}
+.button a{
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: red;
+}
+
+/* about us section */
+.about-us-section{
+    background-image: url(./../img/about-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+img,svg{
+    vertical-align: middle;
+}
+.parent{
+    position: relative;
+    height: 400px;
+}
+.about-img img{
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+.about-left{
+    margin-top: 70px;
+    
+}
+.about-left img{
+    margin-left: 10px;
+    color: whitesmoke;
+}
+.color{
+    margin-left: 10px;
+    color: whitesmoke;
+}
+.services{
+    margin-top: 130px;
+}
+
+/* card */
+.card{
+    background-color:rgb(245, 245, 245) ;
+    width: 250px;
+    height: 160px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 210px;
+    margin: 8px;
+      
+}
+.animation{
+    position: relative;
+}
+.hide{
+    position: absolute;
+    background: red;
+    padding: 20px;
+    display: none;
+    border-radius: 10px 10px 0 0;
+}
+.hide::after{
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    bottom: -15px;
+    left: 40%;
+    background: red;
+    transform: rotate(134deg);
+}
+.animation:hover .hide{
+    display: block;
+    top: -180px;
+    left: 0;
+    transition: 1s ease;
+}
+.title{
+    margin-top: 110px;
+}
+
+.blog-section{
+    margin-top: 120px;
+    
+}
+.img2{
+    border-radius:  20px;
+}
+.blog-title{
+    position: relative;
+}
+.card-title{
+    background-color:#fff;
+    width:480px;
+    height: 210px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -127px;
+    left: 45px;
+    border: 2px solid rgb(213, 238, 74);
+    
+}
+.blog{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:rgb(221, 72, 72);
+    
+    
+}
+
+.utpal{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+    border-radius: 15px;
+}
+.font-aswome{
+    margin-top: 3px;
+    margin-top: 5px;
+}
+
+.contact-section{
+    background-image: url(../img/contact-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 550px;
+    
+}
+.contact-me{
+    margin-top: 150px;
+    color:yellow;
+}
+
+.message{
+    background-color: #ffff;
+    width: 500px;
+    height: 450px;
+    border: 2px solid whitesmoke;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.button-click{
+    background-color: blue;
+    color: white;
+    border: 1px lightcyan;
+    padding: 10px;
+    border-radius: 20px;
+}
+.area{
+    background-color: lightcyan;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid lightcyan;
+}
+.email{
+    background-color: lightcyan;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid lightcyan;
+    width: 425px;
+}
+.name{
+    background-color: lightcyan;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid lightcyan;
+}
+.input{
+    background-color: lightcyan;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid lightcyan;
+}
+
+footer{
+    background-color:rgb(22, 18, 18);
+    width: auto;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title-footer{
+    color: white;
+    text-align: center;
+    
+}
